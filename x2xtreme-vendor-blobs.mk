@@ -7,7 +7,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/allview/x2xtreme/pr
 #etc
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/allview/x2xtreme/proprietary/etc,system/etc)
 #usr
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/allview/x2xtreme/proprietary/usr,system/usr)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/allview/x2xtreme/proprietary/usr,system/usr)
 #xbin
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/allview/x2xtreme/proprietary/xbin,system/xbin)
 #vendor
